@@ -48,4 +48,10 @@
 		});
 	});
 </script>
-
+   <?php 
+                        // inlcuimos la conexion con el servidor
+                        include('conexion.php');
+                        $pdo = connect();
+                        // Incluir para ver la totalidad de alumnos
+                        include('listar.php'); 
+                    ?>
