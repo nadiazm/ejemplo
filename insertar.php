@@ -1,6 +1,6 @@
 <?php 
-	$conexion=mysqli_connect('localhost','root','','pruebas');
-
+	$host="127.0.0.1";
+	$conexion=mysqli_connect($host,'root','','pruebas');
 	$nombre=$_POST['nombre'];
 	$apellido=$_POST['apellido'];
 	$usuario=$_POST['usuario'];
